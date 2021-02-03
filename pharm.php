@@ -105,7 +105,7 @@ $con->close();
 
     </section>
     <section class="container">
-        <!-- <h1 class="heading-2">Our services</h1> -->
+        
         <div id="services">
             <div class="box">
 
