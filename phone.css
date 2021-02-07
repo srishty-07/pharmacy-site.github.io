@@ -1,0 +1,72 @@
+/* navigation section */
+#navbar{
+
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding:0px 7px;
+    padding-bottom: 8px;
+}
+/* home section */
+#home{
+    height: 370px;
+    /* flex-direction: column; */
+    padding:3px 68px;
+}
+#home::before{
+    height:500px;
+    width:800px;
+}
+#home p{
+    font-size: 13px;
+    
+}
+/* service section */
+#services{
+    flex-direction: column;
+}
+#service .box{
+  margin:9px 6px;
+  margin-top:45px;
+}
+/* connecttion section */
+#connection-section{
+    flex-wrap: wrap;
+}
+
+    #connection-section img{
+       width:106px;
+       /* padding:48px; */
+    }
+    #connection-section::before{
+        width: 800px;;
+    }
+
+/* contact section */
+#contact::before{
+    width: 800px;
+    
+}
+/* utility classes */
+.heading-1{
+    font-size:30px;
+    /* margin: 20px; */
+    padding:4px 8px;
+   
+}
+.btn{
+    font-size: 13px;
+    padding:4px 8px;
+}
+/* footer */
+footer
+{
+    width: 760px;
+}
+/* container */
+.container{
+    justify-self: center;
+    align-items: center;
+}
